@@ -1,7 +1,7 @@
 export default function Hero() {
     return (
         <section
-            className="bg-[url('/img/overview.jpg')] bg-cover bg-center bg-no-repeat relative h-[350px] md:h-[400px] lg:h-[600px] flex items-center justify-start text-white"
+            className="bg-[url('/img/vast.jpg')] bg-cover bg-center bg-no-repeat relative h-[350px] md:h-[400px] lg:h-[600px] flex items-center justify-start text-white"
         >
             <div className="container mx-auto max-w-7xl px-2 mt-8 py-8">
                 <h1 className="text-l md:text-xl lg:text-3xl font-semibold tracking-wide">The future funds market value</h1>

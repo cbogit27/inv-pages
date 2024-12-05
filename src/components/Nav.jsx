@@ -31,7 +31,7 @@ export default function Navigation() {
   return (
     <nav
       className={`fixed w-full z-10 top-0 transform transition-all duration-400 ease-in-out ${
-        navBg ? "bg-gray-300 shadow-md" : "bg-slate-50"
+        navBg ? "bg-slate-50 shadow-md" : "bg-slate-50"
       }`}
     >
       <div className="flex text-start justify-between mx-auto px-4 py-6">

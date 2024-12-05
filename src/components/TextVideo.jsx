@@ -19,7 +19,7 @@ export default function TextVideo() {
         <div className="relative w-full h-48 md:h-[600px] py-8">
           <iframe
             className="absolute inset-0 w-full h-full"
-            src="https://www.youtube.com/embed/1zEtIa8lpLA?si=6niGSDZBH2gqy9SC"
+            src="https://www.youtube.com/embed/iOv2AO55_G8?si=GxZ8PHb-W0VNKtBX"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"

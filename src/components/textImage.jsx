@@ -1,5 +1,5 @@
 import Image from "next/image";
-import tree from "../../public/img/trees.jpg";
+import civic from "../../public/img/civic.jpg";
 import Arrow from "./Arrow";
 
 export default function TextImage() {
@@ -24,7 +24,7 @@ export default function TextImage() {
       <div className="flex items-center justify-end py-8">
         <div className="relative overflow-hidden h-72 lg:h-80 w-full ml-auto">
           <Image
-            src={tree}
+            src={civic}
             alt="tree"
             sizes="(max-width: 768px) 100vw, 50vw"
             priority={true}
