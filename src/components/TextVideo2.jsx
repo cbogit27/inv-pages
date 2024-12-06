@@ -28,7 +28,6 @@ export default function TextVideo2() {
               src="https://www.youtube.com/embed/UeKWg0CGjxM?si=txs7Wo4HWtn7SXj7"
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerPolicy="strict-origin-when-cross-origin"
               allowFullScreen
               className="w-full h-full"
             ></iframe>

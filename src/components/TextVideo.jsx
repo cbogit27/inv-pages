@@ -22,7 +22,6 @@ export default function TextVideo() {
             src="https://www.youtube.com/embed/iOv2AO55_G8?si=GxZ8PHb-W0VNKtBX"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin"
             allowFullScreen
           ></iframe>
         </div>
