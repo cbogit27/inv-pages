@@ -109,7 +109,7 @@ export default function Navigation() {
 
         <div
           onClick={toggleNav}
-          className="text-lg font-semibold flex md:hidden cursor-pointer active:border border-emerald-800/40 px-4 py-4 uppercase transform transition-all duration-500 ease-out"
+          className="text-sm font-semibold flex md:hidden cursor-pointer active:border border-emerald-800/40 p-4 uppercase transform transition-all duration-500 ease-out"
         >
           menu
         </div>
@@ -136,7 +136,7 @@ export default function Navigation() {
 
           <div
             onClick={toggleNav}
-            className="text-lg font-semibold active:border border-emerald-800/40 cursor-pointer p-4 uppercase transition-all duration-500 ease-out"
+            className="text-sm font-semibold active:border border-emerald-800/40 cursor-pointer p-4 uppercase transition-all duration-500 ease-out"
           >
             close
           </div>
