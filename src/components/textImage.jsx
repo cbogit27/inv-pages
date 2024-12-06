@@ -23,14 +23,13 @@ export default function TextImage() {
       {/* Image Section */}
       <div className="flex items-center justify-end py-8">
         <div className="relative overflow-hidden h-72 lg:h-80 w-full ml-auto">
-          <img
-          unoptimized
-            src={civic}
+          <Image
+            width={600}
+            height={400}
+            src={"https://images.unsplash.com/photo-1618828665011-0abd973f7bb8?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"}
             alt="tree"
-            sizes="(max-width: 768px) 100vw, 50vw"
             priority={true}
             quality={50}
-            placeholder="blur"
             className="object-cover"
           />
         </div>
