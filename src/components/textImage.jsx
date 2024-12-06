@@ -24,6 +24,7 @@ export default function TextImage() {
       <div className="flex items-center justify-end py-8">
         <div className="relative overflow-hidden h-72 lg:h-80 w-full ml-auto">
           <Image
+          unoptimized
             src={civic}
             alt="tree"
             sizes="(max-width: 768px) 100vw, 50vw"
