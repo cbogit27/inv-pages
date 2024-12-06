@@ -2,7 +2,7 @@
 const isProd = process.env.NODE_ENV === 'production';
 const nextConfig = {
     reactStrictMode: true,
-    assetPrefix: isProd ? '/inv-pages' : '',
+    assetPrefix: isProd ? '/inv-pages/' : '',
   basePath: isProd ? '/inv-pages' : '',
   output: 'export'
 };
