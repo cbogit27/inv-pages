@@ -39,7 +39,7 @@ export default function Navigation() {
           <Link
             href={"/"}
             className={`text-gray-800 hover:text-green-800/50 cursor-pointer ${
-              activeLink("/") ? "border-b border-emerald-800 w-fit py-1" : ""
+              activeLink("/") ? "border-b border-emerald-800 w-fit" : ""
             }`}
           >
             Investment
@@ -55,7 +55,7 @@ export default function Navigation() {
                 href={"/fund"}
                 className={`text-gray-800 hover:text-green-800/50 cursor-pointer ${
                   activeLink("/fund")
-                    ? "border-b border-emerald-800 w-fit py-1"
+                    ? "border-b border-emerald-800 w-fit"
                     : ""
                 }`}
               >
@@ -67,7 +67,7 @@ export default function Navigation() {
                 href={"/investment"}
                 className={`text-gray-800 hover:text-green-800/50 cursor-pointer ${
                   activeLink("/investment")
-                    ? "border-b border-emerald-800 w-fit py-1"
+                    ? "border-b border-emerald-800 w-fit"
                     : ""
                 }`}
               >
@@ -79,7 +79,7 @@ export default function Navigation() {
                 href={"/publications"}
                 className={`text-gray-800 hover:text-green-800/50 cursor-pointer ${
                   activeLink("/publications")
-                    ? "border-b border-emerald-800 w-fit py-1"
+                    ? "border-b border-emerald-800 w-fit"
                     : ""
                 }`}
               >
@@ -91,7 +91,7 @@ export default function Navigation() {
                 href={"/organisation"}
                 className={`text-gray-800 hover:text-green-800/50 cursor-pointer ${
                   activeLink("/organisation")
-                    ? "border-b border-emerald-800 w-fit py-1"
+                    ? "border-b border-emerald-800 w-fit"
                     : ""
                 }`}
               >
@@ -117,11 +117,12 @@ export default function Navigation() {
 
       {/* mobile nav */}
       <div
-        className={`fixed flex-col md:hidden top-0 right-0 h-96 w-full bg-slate-50 border-b-2 py-4 text-black transition-transform duration-500 transform ${
+        className={`fixed flex-col shadow-sm md:hidden top-0 right-0 h-96 w-full bg-slate-50 border-b-2 py-4 text-black transition-transform duration-500 transform ${
           openNav ? "translate-y-0" : "-translate-y-full"
         }`}
       >
         <div className="flex justify-between items-center px-4 py-4">
+          <div className="text-sm">
           <Link
             href={"/"}
             onClick={toggleNav}
@@ -129,12 +130,13 @@ export default function Navigation() {
               activeLink("/") ? "border-b border-emerald-800 w-fit" : ""
             }`}
           >
-            Investment <br/>Banking Authority
+            Investment<br/>Banking Authority
           </Link>
+          </div>
 
           <div
             onClick={toggleNav}
-            className="text-lg font-semibold  shadow-sm active:border border-emerald-800/40 cursor-pointer p-4 uppercase transition-all duration-500 ease-out"
+            className="text-lg font-semibold active:border border-emerald-800/40 cursor-pointer p-4 uppercase transition-all duration-500 ease-out"
           >
             close
           </div>
@@ -147,7 +149,7 @@ export default function Navigation() {
               onClick={toggleNav}
               className={`text-gray-800 hover:text-green-800/50 cursor-pointer ${
                 activeLink("/fund")
-                  ? "border-b border-emerald-800 w-fit py-1"
+                  ? "border-b border-emerald-800 w-fit"
                   : ""
               }`}
             >
@@ -160,7 +162,7 @@ export default function Navigation() {
               onClick={toggleNav}
               className={`text-gray-800 hover:text-green-800/50 cursor-pointer ${
                 activeLink("/investment")
-                  ? "border-b border-emerald-800 w-fit py-1"
+                  ? "border-b border-emerald-800 w-fit"
                   : ""
               }`}
             >
@@ -173,7 +175,7 @@ export default function Navigation() {
               onClick={toggleNav}
               className={`text-gray-800 hover:text-green-800/50 cursor-pointer ${
                 activeLink("/publications")
-                  ? "border-b border-emerald-800 w-fit py-1"
+                  ? "border-b border-emerald-800 w-fit"
                   : ""
               }`}
             >
@@ -186,7 +188,7 @@ export default function Navigation() {
               onClick={toggleNav}
               className={`text-gray-800 hover:text-green-800/50 cursor-pointer ${
                 activeLink("/organisation")
-                  ? "border-b border-emerald-800 w-fit py-1"
+                  ? "border-b border-emerald-800 w-fit"
                   : ""
               }`}
             >
