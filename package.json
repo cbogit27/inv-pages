@@ -1,4 +1,5 @@
 {
+  "homepage": "https://cbogit27.github.io/inv-pages/",
   "name": "investment-bank",
   "version": "0.1.0",
   "private": true,
@@ -6,9 +7,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
+    "gh-pages": "^6.2.0",
     "next": "15.0.3",
     "react": "19.0.0-rc-66855b96-20241106",
     "react-dom": "19.0.0-rc-66855b96-20241106",

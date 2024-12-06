@@ -25,7 +25,7 @@ export default function TextVideo2() {
             <iframe
               width="560"
               height="315"
-              src="https://www.youtube.com/embed/UeKWg0CGjxM?si=txs7Wo4HWtn7SXj7"
+              src="https://www.youtube.com/embed/uZojA3rc-Uo?si=bWMqNLM_afgzIB9L"
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
