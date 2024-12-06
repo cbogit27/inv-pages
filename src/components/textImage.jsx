@@ -23,7 +23,7 @@ export default function TextImage() {
       {/* Image Section */}
       <div className="flex items-center justify-end py-8">
         <div className="relative overflow-hidden h-72 lg:h-80 w-full ml-auto">
-          <Image
+          <img
           unoptimized
             src={civic}
             alt="tree"
