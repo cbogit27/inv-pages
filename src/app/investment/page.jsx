@@ -1,5 +1,13 @@
+import InvestmentCard from "./components/inv-card";
+import InvestmentHeroPage from "./components/inv-hero";
+import InvestmentText from "./components/inv-text";
+
 export default function InvestmentPage(){
     return (
-        <>Investment</>
+        <>
+            <InvestmentHeroPage/>
+            <InvestmentText/>
+            <InvestmentCard/>
+        </>
     )
 }

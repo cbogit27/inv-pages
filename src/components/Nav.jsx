@@ -52,9 +52,9 @@ export default function Navigation() {
           <ul className="flex space-x-4 lg:space-x-8">
             <li>
               <Link
-                href={"/fund"}
+                href={"/"}
                 className={`text-gray-800 hover:text-green-800/50 cursor-pointer ${
-                  activeLink("/fund")
+                  activeLink("/")
                     ? "border-b border-emerald-800 w-fit"
                     : ""
                 }`}
@@ -145,10 +145,10 @@ export default function Navigation() {
         <ul className="flex flex-col space-y-8 px-4 mt-8">
           <li>
             <Link
-              href={"/fund"}
+              href={"/"}
               onClick={toggleNav}
               className={`text-gray-800 hover:text-green-800/50 cursor-pointer ${
-                activeLink("/fund")
+                activeLink("/")
                   ? "border-b border-emerald-800 w-fit"
                   : ""
               }`}

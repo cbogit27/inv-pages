@@ -7,7 +7,7 @@ export default function Arrow({text}){
          size={25}
         className="transform transition-transform duration-500 group-hover:translate-x-2"
         />
-        <h3 className="underline underline-offset-4 text-sm md:text-lg">
+        <h3 className="underline underline-offset-4 text-sm">
         {text}
          </h3>
         </div>
