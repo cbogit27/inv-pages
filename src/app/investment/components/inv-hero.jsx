@@ -9,7 +9,7 @@ export default function InvestmentHeroPage() {
                 <div className="bg-gray-300/70 p-6 md:p-8 lg:p-12 items-start w-[300px] md:w-[500px] lg:w-[600px] md:h-36 lg:h-56 mb-8">
                     <div className="space-y-2">
                         <h2 className="text-lg md:text-2xl lg:text-3xl font-semibold tracking-wide">
-                            <span className="underline underline-offset-8">Resp</span>onsible Investments
+                            <span className="underline underline-offset-8">Res</span>ponsible Investments
                         </h2>
                         <p className="text-sm md:text-lg">
                             Home / Responsible Investment
