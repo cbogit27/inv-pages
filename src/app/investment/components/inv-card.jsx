@@ -8,7 +8,7 @@ export default function InvestmentCard() {
         <section className="container max-w-7xl mx-auto py-16">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 p-4">
                 {/* Card 1 */}
-                <div className="flex flex-col items-center text-start space-y-8 p-6">
+                <div className="flex flex-col items-center text-start space-y-8 p-2">
                     <div className="flex items-center justify-center">
                         <LiaPeopleCarrySolid size={150} className="text-emerald-800" />
                     </div>
@@ -28,7 +28,7 @@ export default function InvestmentCard() {
                 </div>
 
                 {/* Card 2 */}
-                <div className="flex flex-col items-center text-start space-y-8 p-6">
+                <div className="flex flex-col items-center text-start space-y-8 p-2">
                     <div className="flex items-center justify-center">
                         <LiaObjectGroupSolid size={150} className="text-emerald-800" />
                     </div>
@@ -49,7 +49,7 @@ export default function InvestmentCard() {
                 </div>
 
                 {/* Card 3 */}
-                <div className="flex flex-col items-center text-start space-y-8 p-6">
+                <div className="flex flex-col items-center text-start space-y-8 p-2">
                     <div className="flex items-center justify-center">
                         <IoMdAnalytics size={150} className="text-emerald-800" />
                     </div>
